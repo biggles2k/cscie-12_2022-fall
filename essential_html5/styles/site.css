@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Garamond, serif;
+    color: rgb(10, 10, 10);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1em;
+    background-color: #ffffff;
+}
+header {
+    border-bottom: 2px solid rgb(10, 10, 10);
+}
+footer {
+    margin-top: 1.5rem;
+    border-top: 1px solid rgb(10, 10, 10);
+    font-size: smaller;
+    padding: 0.5rem;
+    background-color: rgb(245,245,245);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Verdana , sans-serif;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #0000ee;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #0000ee;
+    color: #ffffff;
+}
