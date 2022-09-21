@@ -1,0 +1,55 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:bisque;
+    width: 75%;
+    margin: auto;
+}
+
+a:link,
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: red;
+}
+
+header {
+    background: url(../images/bbc_news_120x60.png) no-repeat;
+    min-height: 60px;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    padding-left: 125px;
+    padding-top: 0.5rem;
+}
+
+article {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+article h2 {
+    margin: 0;
+}
+
+article p {
+    margin: 0;
+}
+
+article p:last-child {
+    margin-top: 1 rem;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+footer {
+    margin-top: 2rem;
+    border-top: solid black thin;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
