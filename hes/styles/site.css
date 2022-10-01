@@ -1,0 +1,105 @@
+/* -----------------------------
+   colors used
+   -----------------------------
+    #000000
+    #020203
+    #4d84c4
+    #a51c30
+    #f5f5f8
+    #ebebeb
+    #ffffff
+    
+    You can see the color palette (minus the white and black) at: 
+    https://coolors.co/a51c30-4d84c4-020203-ebebeb-f5f5f8
+*/
+
+/* -----------------------------
+   fonts used
+   -----------------------------
+Note that Roboto and "Roboto Condensed" are available from the linked fonts already in the HTML
+
+font-family stack for most things:
+    Roboto, Arial, sans-serif;
+
+font-family stack for 'condensed' elements, such as hX headings, header navigation, and links in the 'Explore'  section:
+    'Roboto Condensed', Arial, sans-serif;
+   -----------------------------  */
+
+/* -----------------------------
+   background images used
+   -----------------------------
+../images/hes_shield_wordmark.svg   - This is the HES Shield and HES Wordmark
+../images/campus_bridge_river.jpg   - This is the background image for the 
+                                      "Explore" section
+../images/arrow-right.svg    - This is the crimson arrow next to the 
+                                      hypertext links in the "Explore" sections
+../images/mortar-board.svg          - The "cap" in Student Success stories 'program'
+../images/map-marker.svg            - The map marker in Student Success 
+                                      stories 'hometown'
+
+   -----------------------------  */
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* turn off sections you aren't working on so you can focus!
+   I suggest you begin with working on the "footer"
+*/
+/* consider uncommenting this to start so that only the footer is visible! */
+/*
+div.explore,
+div.studentsuccess,
+header
+{
+    display: none;
+}
+*/
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for header
+   ----------------------------- */
+
+/* ----------------------------- */
+
+
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+
+/* -----------------------------
+   Styles for header secondary nav
+   ----------------------------- */
+
+/* ----------------------------- */
+
+
+/* -----------------------------
+   Styles for "Explore"
+   ----------------------------- */
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for "Student Success"
+   ----------------------------- */
+
+/* ----------------------------- */
