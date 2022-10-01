@@ -6,7 +6,7 @@
     #4d84c4 (secondary navigation)
     #a51c30 (crimson)
     #f5f5f8
-    #ebebeb
+    #ebebeb (grey for "Explore" boxes)
     #ffffff (black)
     
     You can see the color palette (minus the white and black) at: 
@@ -75,47 +75,47 @@ header
 /* -----------------------------
    Styles for footer
    ----------------------------- */
-   footer {
-      background-color: black;
-      color: white;
-      padding: 1rem 0 1rem 1rem;
-   }
-   
-   footer nav,
-   footer p {
-      margin-bottom: 1rem;
-   }
-   
-   footer nav a:link,
-   footer nav a:visited,
-   footer nav a:hover,
-   footer nav a:active
-   {
-      color: white;
-      text-decoration: none;
-   }
-   
-   footer nav.contactplus ul li {
-      padding-right: 2.5rem;
-   
-   }
-   
-   footer nav.contactplus a {
-      font-weight: bold;
-   }
-   
-   footer nav.privacyplus li {
-      border-right: thin solid white;
-      padding: 0 1rem;
-   }
-   
-   footer nav.privacyplus li:first-child {
-      padding-left: 0;
-   }
-   
-   footer nav.privacyplus li:last-child {
-      border-right: none;
-   }
+footer {
+   background-color: black;
+   color: white;
+   padding: 1rem 0 1rem 1rem;
+}
+
+footer nav,
+footer p {
+   margin-bottom: 1rem;
+}
+
+footer nav a:link,
+footer nav a:visited,
+footer nav a:hover,
+footer nav a:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+footer nav.contactplus ul li {
+   padding-right: 2.5rem;
+
+}
+
+footer nav.contactplus a {
+   font-weight: bold;
+}
+
+footer nav.privacyplus li {
+   border-right: thin solid white;
+   padding: 0 1rem;
+}
+
+footer nav.privacyplus li:first-child {
+   padding-left: 0;
+}
+
+footer nav.privacyplus li:last-child {
+   border-right: none;
+}
    
 /* ----------------------------- */
 
@@ -196,29 +196,69 @@ header nav.primary a {
 /* -----------------------------
    Styles for header secondary nav
    ----------------------------- */
-
-   header nav.secondary a {
-      color:#4d84c4;
-   }
+header nav.secondary a {
+   color:#4d84c4;
+}
    
-   header nav.secondary ul li:last-child {
-      border: 2px solid #4d84c4;
-      padding: 0.5rem;
-   }
-   
-
-/* ----------------------------- */
-
-
-/* -----------------------------
-   Styles for "Explore"
-   ----------------------------- */
+header nav.secondary ul li:last-child {
+   border: 2px solid #4d84c4;
+   padding: 0.5rem;
+}   
 
 /* ----------------------------- */
 
 main {
    clear: both;
 }
+
+/* -----------------------------
+   Styles for "Explore"
+   ----------------------------- */
+main div.explore {
+   background-image: url(../images/campus_bridge_river.jpg);
+   background-size: cover;
+
+}
+
+main div.explore h1 {
+   color: white;
+   text-shadow: 0.25rem 0.25rem 0.5rem black;
+   text-align: center;
+   padding-top: 0.5rem;
+}
+
+main div.explore div.sections section {
+   background-color: #ebebeb;
+   margin: 1rem;
+   border-top: #a51c30 solid 0.5rem;
+
+}
+
+main div.explore div.sections section h2 {
+   background-color: white;
+   padding: 0.5rem;
+   text-transform: uppercase;
+}
+
+main div.explore div.sections section ul li {
+   padding: 0.25rem 0rem 0.25rem 0.5rem;
+}
+
+main div.explore div.sections section ul li a {
+   color:#a51c30;
+   text-decoration: none;
+   font-weight: bold;
+   background-image: url(../images/arrow-right.svg);
+   background-repeat: no-repeat;
+   background-position-x: right;
+   background-position-y: center;
+   padding-right: 1.5rem;
+}
+
+
+/* ----------------------------- */
+
+
 /* -----------------------------
    Styles for "Student Success"
    ----------------------------- */
