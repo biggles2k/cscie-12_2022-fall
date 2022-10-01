@@ -227,7 +227,14 @@ main div.explore h1 {
    padding-top: 0.5rem;
 }
 
+main div.explore div.sections {
+   display: flex;
+   flex-wrap: wrap;
+}
+
 main div.explore div.sections section {
+   box-sizing: border-box;
+   flex-basis: 30%;
    background-color: #ebebeb;
    margin: 1rem;
    border-top: #a51c30 solid 0.5rem;
@@ -240,6 +247,9 @@ main div.explore div.sections section h2 {
    text-transform: uppercase;
 }
 
+main div.explore div.sections section ul {
+   list-style-type: none;
+}
 main div.explore div.sections section ul li {
    padding: 0.25rem 0rem 0.25rem 0.5rem;
 }
