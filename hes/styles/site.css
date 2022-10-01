@@ -136,12 +136,17 @@ header h2.wordmark {
    background: url(../images/hes_shield_wordmark.svg);
    background-repeat: no-repeat;
    height: 106px;
+   width: 268px;
    margin-top: 0.5rem;
    margin-left: 0.5rem;
+   float: left;
 }
 
 header nav {
    font-family: 'Roboto Condensed', Arial, sans-serif;
+   float: right;
+   margin-top: 1.5rem;
+   margin-right: 0.25rem;
 }
 
 header nav ul li {
@@ -156,16 +161,12 @@ header nav a:active {
    text-decoration: none;
 }
 
-header nav.secondary a {
-   color:#4d84c4;
-}
-
-header nav.secondary ul li:last-child {
-   border: 2px solid #4d84c4;
-   padding: 0.5rem;
-}
+/* ----------------------------- */
 
 
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
 header nav.primary ul li {
    border-right: thin solid black;
    padding: 0rem 1rem;
@@ -190,27 +191,21 @@ header nav.primary a {
    color: black;
 }
 
-
 /* ----------------------------- */
-
-
-/* -----------------------------
-   Styles for header primary nav
-   ----------------------------- */
-
-/* ----------------------------- */
-
-
-/* -----------------------------
-   Styles for header primary nav
-   ----------------------------- */
-
-/* ----------------------------- */
-
 
 /* -----------------------------
    Styles for header secondary nav
    ----------------------------- */
+
+   header nav.secondary a {
+      color:#4d84c4;
+   }
+   
+   header nav.secondary ul li:last-child {
+      border: 2px solid #4d84c4;
+      padding: 0.5rem;
+   }
+   
 
 /* ----------------------------- */
 
@@ -221,6 +216,9 @@ header nav.primary a {
 
 /* ----------------------------- */
 
+main {
+   clear: both;
+}
 /* -----------------------------
    Styles for "Student Success"
    ----------------------------- */
