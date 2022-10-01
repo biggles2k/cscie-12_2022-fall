@@ -5,8 +5,8 @@
     #020203
     #4d84c4 (secondary navigation)
     #a51c30 (crimson)
-    #f5f5f8
-    #ebebeb (grey for "Explore" boxes)
+    #f5f5f8 (grey for "Sutdent Success" boxes)
+    #ebebeb (grey for "Explore" boxes and "Student Success" background)
     #ffffff (black)
     
     You can see the color palette (minus the white and black) at: 
@@ -265,12 +265,43 @@ main div.explore div.sections section ul li a {
    padding-right: 1.5rem;
 }
 
-
 /* ----------------------------- */
-
 
 /* -----------------------------
    Styles for "Student Success"
    ----------------------------- */
+main div.studentsuccess {
+   background-color: #ebebeb;
+}
+
+main div.studentsuccess h2, 
+main div.studentsuccess > p {
+   width: 75%;
+   margin: auto;
+}
+
+main div.studentsuccess h2 {
+   text-align: center;
+}
+ 
+main div.studentsuccess div.articles article {
+   background-color: #f5f5f8;
+   padding: 1rem;
+}
+
+main div.studentsuccess div.articles article ul {
+   padding-left: 2rem;
+   margin-bottom: 1rem;
+   list-style: none;
+}
+
+main div.studentsuccess div.articles article ul li.program {
+   list-style-image: url(../images/mortar-board.svg);
+}
+
+main div.studentsuccess div.articles article ul li.hometown {
+   list-style-image: url(../images/map-marker.svg);
+}
+
 
 /* ----------------------------- */
