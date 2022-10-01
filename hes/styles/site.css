@@ -2,7 +2,7 @@
    colors used
    -----------------------------
     #000000 (white)
-    #020203
+    #020203 (black for footer?)
     #4d84c4 (secondary navigation)
     #a51c30 (crimson)
     #f5f5f8 (grey for "Sutdent Success" boxes)
@@ -59,24 +59,11 @@ nav ul li {
    display: inline;
 }
 
-/* turn off sections you aren't working on so you can focus!
-   I suggest you begin with working on the "footer"
-*/
-/* consider uncommenting this to start so that only the footer is visible! */
-/*
-div.explore,
-div.studentsuccess,
-header
-{
-    display: none;
-}
-*/
-
 /* -----------------------------
    Styles for footer
    ----------------------------- */
 footer {
-   background-color: black;
+   background-color: #020203;
    color: white;
    padding: 1rem 0 1rem 1rem;
 }
@@ -281,6 +268,7 @@ main div.studentsuccess > p {
 }
 
 main div.studentsuccess h2 {
+   padding-top: 2rem;
    text-align: center;
 }
  
