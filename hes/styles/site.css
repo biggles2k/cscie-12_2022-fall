@@ -1,13 +1,13 @@
 /* -----------------------------
    colors used
    -----------------------------
-    #000000
+    #000000 (white)
     #020203
-    #4d84c4
-    #a51c30
+    #4d84c4 (secondary navigation)
+    #a51c30 (crimson)
     #f5f5f8
     #ebebeb
-    #ffffff
+    #ffffff (black)
     
     You can see the color palette (minus the white and black) at: 
     https://coolors.co/a51c30-4d84c4-020203-ebebeb-f5f5f8
@@ -43,8 +43,20 @@ font-family stack for 'condensed' elements, such as hX headings, header navigati
       padding: 0;
  }
 
- body {
+body {
     font-family: Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
 }
 
 /* turn off sections you aren't working on so you can focus!
@@ -72,14 +84,6 @@ header
    footer nav,
    footer p {
       margin-bottom: 1rem;
-   }
-   
-   footer nav ul {
-      list-style: none;
-   }
-   
-   footer nav ul li {
-      display: inline;
    }
    
    footer nav a:link,
@@ -118,6 +122,74 @@ header
 /* -----------------------------
    Styles for header
    ----------------------------- */
+
+header h2 {
+   background-color: #a51c30;
+   color: white;
+   font-variant:small-caps;
+
+}
+
+header h2.wordmark {
+   background-color: white;
+   text-indent: -100%;
+   background: url(../images/hes_shield_wordmark.svg);
+   background-repeat: no-repeat;
+   height: 106px;
+   margin-top: 0.5rem;
+   margin-left: 0.5rem;
+}
+
+header nav {
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+header nav ul li {
+   padding-right: 2.5rem;
+}
+
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+   font-weight: bold;
+   text-decoration: none;
+}
+
+header nav.secondary a {
+   color:#4d84c4;
+}
+
+header nav.secondary ul li:last-child {
+   border: 2px solid #4d84c4;
+   padding: 0.5rem;
+}
+
+
+header nav.primary ul li {
+   border-right: thin solid black;
+   padding: 0rem 1rem;
+}
+
+header nav.primary ul li:last-child {
+   background-color: #a51c30;
+   padding-top:  0.5rem;
+   padding-bottom: 0.5rem;
+}
+header nav.primary ul li:last-child a {
+   color: white;
+}
+
+header nav.primary ul li:last-child,
+header nav.primary ul li:nth-last-child(2)
+{
+   border-right: none;
+}
+
+header nav.primary a {
+   color: black;
+}
+
 
 /* ----------------------------- */
 
