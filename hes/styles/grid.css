@@ -1,0 +1,320 @@
+/* -----------------------------
+   colors used
+   -----------------------------
+    #000000 (white)
+    #020203 (black for footer?)
+    #4d84c4 (secondary navigation)
+    #a51c30 (crimson)
+    #f5f5f8 (grey for "Sutdent Success" boxes)
+    #ebebeb (grey for "Explore" boxes and "Student Success" background)
+    #ffffff (black)
+    
+    You can see the color palette (minus the white and black) at: 
+    https://coolors.co/a51c30-4d84c4-020203-ebebeb-f5f5f8
+*/
+
+/* -----------------------------
+   fonts used
+   -----------------------------
+Note that Roboto and "Roboto Condensed" are available from the linked fonts already in the HTML
+
+font-family stack for most things:
+    Roboto, Arial, sans-serif;
+
+font-family stack for 'condensed' elements, such as hX headings, header navigation, and links in the 'Explore'  section:
+    'Roboto Condensed', Arial, sans-serif;
+   -----------------------------  */
+
+/* -----------------------------
+   background images used
+   -----------------------------
+../images/hes_shield_wordmark.svg   - This is the HES Shield and HES Wordmark
+../images/campus_bridge_river.jpg   - This is the background image for the 
+                                      "Explore" section
+../images/arrow-right.svg    - This is the crimson arrow next to the 
+                                      hypertext links in the "Explore" sections
+../images/mortar-board.svg          - The "cap" in Student Success stories 'program'
+../images/map-marker.svg            - The map marker in Student Success 
+                                      stories 'hometown'
+
+   -----------------------------  */
+* {
+      margin: 0;
+      padding: 0;
+ }
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+   display: inline;
+}
+
+/* -----------------------------
+   Styles for footer
+   ----------------------------- */
+footer {
+   background-color: #020203;
+   color: white;
+   padding: 1rem 0 1rem 1rem;
+}
+
+footer nav,
+footer p {
+   margin-bottom: 1rem;
+}
+
+footer nav a:link,
+footer nav a:visited,
+footer nav a:hover,
+footer nav a:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+footer nav.contactplus ul li {
+   padding-right: 2.5rem;
+}
+
+footer nav.contactplus a {
+   font-weight: bold;
+}
+
+footer nav.privacyplus li {
+   border-right: thin solid white;
+   padding: 0 1rem;
+}
+
+footer nav.privacyplus li:first-child {
+   padding-left: 0;
+}
+
+footer nav.privacyplus li:last-child {
+   border-right: none;
+}
+   
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for header
+   ----------------------------- */
+
+header {
+   display: grid;
+   grid-template-areas: "title title"
+                        "image secondaryNav"
+                        "image primaryNav";
+}
+header h2 {
+   grid-area: title;
+
+   background-color: #a51c30;
+   color: white;
+   font-variant:small-caps;
+}
+
+header h2.wordmark {
+   grid-area: image;
+
+   background-color: white;
+   text-indent: -100%;
+   background: url(../images/hes_shield_wordmark.svg);
+   background-repeat: no-repeat;
+   height: 106px;
+   width: 268px;
+   margin-top: 0.5rem;
+   margin-left: 0.5rem;
+}
+
+header nav {
+   font-family: 'Roboto Condensed', Arial, sans-serif;
+   margin-top: 1.5rem;
+   margin-right: 0.25rem;
+
+}
+
+header nav.secondary {
+   grid-area: secondaryNav;
+   justify-self: end;
+}
+
+header nav.primary {
+   grid-area: primaryNav;
+   justify-self: end;
+}
+
+header nav ul li {
+   padding-right: 2.5rem;
+}
+
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+   font-weight: bold;
+   text-decoration: none;
+}
+
+/* ----------------------------- */
+
+
+/* -----------------------------
+   Styles for header primary nav
+   ----------------------------- */
+header nav.primary ul li {
+   border-right: thin solid black;
+   padding: 0rem 1rem;
+}
+
+header nav.primary ul li:last-child {
+   background-color: #a51c30;
+   padding-top:  0.5rem;
+   padding-bottom: 0.5rem;
+}
+header nav.primary ul li:last-child a {
+   color: white;
+}
+
+header nav.primary ul li:last-child,
+header nav.primary ul li:nth-last-child(2)
+{
+   border-right: none;
+}
+
+header nav.primary a {
+   color: black;
+}
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for header secondary nav
+   ----------------------------- */
+header nav.secondary a {
+   color:#4d84c4;
+}
+   
+header nav.secondary ul li:last-child {
+   border: 2px solid #4d84c4;
+   padding: 0.5rem;
+}   
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for "Explore"
+   ----------------------------- */
+main div.explore {
+   background-image: url(../images/campus_bridge_river.jpg);
+   background-size: cover;
+
+}
+
+main div.explore h1 {
+   color: white;
+   text-shadow: 0.25rem 0.25rem 0.5rem black;
+   text-align: center;
+   padding-top: 0.5rem;
+}
+
+main div.explore div.sections {
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   justify-content: center;
+
+}
+
+main div.explore div.sections section {
+   box-sizing: border-box;
+   background-color: #ebebeb;
+   margin: 1rem;
+   border-top: #a51c30 solid 0.5rem;
+
+}
+
+main div.explore div.sections section h2 {
+   background-color: white;
+   padding: 0.5rem;
+   text-transform: uppercase;
+}
+
+main div.explore div.sections section ul {
+   list-style-type: none;
+}
+main div.explore div.sections section ul li {
+   padding: 0.25rem 0rem 0.25rem 0.5rem;
+}
+
+main div.explore div.sections section ul li a {
+   color:#a51c30;
+   text-decoration: none;
+   font-weight: bold;
+   background-image: url(../images/arrow-right.svg);
+   background-repeat: no-repeat;
+   background-position-x: right;
+   background-position-y: center;
+   padding-right: 1.5rem;
+}
+
+/* ----------------------------- */
+
+/* -----------------------------
+   Styles for "Student Success"
+   ----------------------------- */
+main div.studentsuccess {
+   background-color: #ebebeb;
+}
+
+main div.studentsuccess h2, 
+main div.studentsuccess > p {
+   width: 75%;
+   margin: auto;
+}
+
+main div.studentsuccess h2 {
+   padding-top: 2rem;
+   text-align: center;
+}
+ 
+main div.studentsuccess div.articles {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+
+} 
+main div.studentsuccess div.articles article {
+   flex-basis: 20%;
+   background-color: #f5f5f8;
+   padding: 1rem;
+   margin: 2rem;
+}
+main div.studentsuccess div.articles article img {
+   width: 100%;
+}
+
+main div.studentsuccess div.articles article ul {
+   padding-left: 2rem;
+   margin-bottom: 1rem;
+   list-style: none;
+}
+
+main div.studentsuccess div.articles article ul li.program {
+   list-style-image: url(../images/mortar-board.svg);
+}
+
+main div.studentsuccess div.articles article ul li.hometown {
+   list-style-image: url(../images/map-marker.svg);
+}
+
+
+/* ----------------------------- */
