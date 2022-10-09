@@ -1,0 +1,58 @@
+fruit-market/fruit-market-1000.webp WEBP 1000x664
+fruit-market/fruit-market-1250.webp WEBP 1250x830
+fruit-market/fruit-market-1500.webp WEBP 1500x996
+fruit-market/fruit-market-400.webp WEBP 400x266
+fruit-market/fruit-market-600.webp WEBP 600x399
+fruit-market/fruit-market-800.webp WEBP 800x531
+
+grapes/grapes-1000.webp WEBP 1000x667
+grapes/grapes-1250.webp WEBP 1250x833
+grapes/grapes-1500.webp WEBP 1500x1000
+grapes/grapes-400.webp WEBP 400x267
+grapes/grapes-600.webp WEBP 600x400
+grapes/grapes-800.webp WEBP 800x533
+
+kiwi/kiwi-1000.webp WEBP 1000x667
+kiwi/kiwi-1250.webp WEBP 1250x833
+kiwi/kiwi-1500.webp WEBP 1500x1000
+kiwi/kiwi-400.webp WEBP 400x267
+kiwi/kiwi-600.webp WEBP 600x400
+kiwi/kiwi-800.webp WEBP 800x533
+
+strawberry/strawberries-1000.webp WEBP 1000x664
+strawberry/strawberries-1250.webp WEBP 1250x830
+strawberry/strawberries-1500.webp WEBP 1500x996
+strawberry/strawberries-400.webp WEBP 400x266
+strawberry/strawberries-600.webp WEBP 600x399
+strawberry/strawberries-800.webp WEBP 800x531
+
+==
+Size
+(Bytes)
+ 27500 kiwi/kiwi-400.webp
+ 51030 kiwi/kiwi-600.webp
+ 80436 kiwi/kiwi-800.webp
+111120 kiwi/kiwi-1000.webp
+154294 kiwi/kiwi-1250.webp
+197380 kiwi/kiwi-1500.webp
+
+ 44722 fruit-market/fruit-market-400.webp
+ 84638 fruit-market/fruit-market-600.webp
+129638 fruit-market/fruit-market-800.webp
+183812 fruit-market/fruit-market-1000.webp
+255272 fruit-market/fruit-market-1250.webp
+337048 fruit-market/fruit-market-1500.webp
+
+ 20940 grapes/grapes-400.webp
+ 35564 grapes/grapes-600.webp
+ 53806 grapes/grapes-800.webp
+ 75470 grapes/grapes-1000.webp
+106186 grapes/grapes-1250.webp
+137564 grapes/grapes-1500.webp
+
+ 38446 strawberries/strawberries-400.webp
+ 74246 strawberries/strawberries-600.webp
+113850 strawberries/strawberries-800.webp
+157854 strawberries/strawberries-1000.webp
+211346 strawberries/strawberries-1250.webp
+271946 strawberries/strawberries-1500.webp
