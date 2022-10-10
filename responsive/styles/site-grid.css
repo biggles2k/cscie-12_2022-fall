@@ -1,0 +1,70 @@
+/* rules common for narrow and wide screens */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    padding: 1rem 2rem;
+}
+
+main article {
+    background-color: white;
+    margin: 0rem 1rem 2rem 1rem;
+    padding: 0.5rem 2rem;
+}
+
+main article:first-child p {
+    line-height: 2rem;
+    font-size: 1.25rem;
+}
+
+footer {
+    border-top: solid thin black;
+    padding: 1rem 2rem;
+}
+
+footer nav a:link,
+footer nav a:visited,
+footer nav a:hover,
+footer nav a:active {
+    color: #010101;
+}
+
+img {
+    width: 100%;
+}
+        
+/* media query for wider screens */
+@media screen and (min-width: 960px) {
+    body {
+        max-width: 1200px;
+    }
+
+    main {
+        display: grid;
+        grid-template-areas: 
+            "fruits fruits fruits"
+            "strawberries kiwis grapes";
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    main article:first-child {
+        grid-area: fruits;
+
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        padding: 2rem 0;
+    }
+
+    footer nav {
+        margin: 0rem 1rem 2rem 1rem;
+        background-color:aliceblue;
+
+    }       
+}
