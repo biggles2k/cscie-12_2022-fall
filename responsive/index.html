@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/site.css" />
+
     <title>Fruits, Fruits, Fruits!</title>
 </head>
 
@@ -16,8 +18,18 @@
     <main>
         <article>
             <h2>Fruit at the Market</h2>
-            <img src="images/fruit-market/fruit-market-1000.webp" alt="baskets of fruit" />
-
+            <img 
+                srcset=
+                    "images/fruit-market/fruit-market-400.webp 400w, 
+                    images/fruit-market/fruit-market-600.webp 600w,
+                    images/fruit-market/fruit-market-800.webp 800w,
+                    images/fruit-market/fruit-market-1000.webp 1000w,
+                    images/fruit-market/fruit-market-1250.webp 1250w,
+                    images/fruit-market/fruit-market-1500.webp 1500w"
+                sizes="(max-width: 960px) 100vw,"
+                src="images/fruit-market/fruit-market-1000.webp" 
+                alt="baskets of fruit" 
+            />
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
                 vehicula vel nulla vitae hendrerit. Cras sollicitudin blandit rhoncus.
@@ -32,7 +44,12 @@
 
         <article>
             <h2>Strawberries</h2>
-            <img src="images/strawberries/strawberries-1000.webp" alt="strawberries" />
+            <img
+                srcset=""
+                sizes="" 
+                src="images/strawberries/strawberries-1000.webp" 
+                alt="strawberries" 
+            />
             <p>
                 Integer sit amet luctus massa. Class aptent taciti sociosqu ad litora
                 torquent per conubia nostra, per inceptos himenaeos. Duis fringilla ut
@@ -48,7 +65,12 @@
         </article>
         <article>
             <h2>Kiwi</h2>
-            <img src="images/kiwi/kiwi-1000.webp" alt="Kiwi" />
+            <img 
+                srcset=""
+                sizes="" 
+                src="images/kiwi/kiwi-1000.webp" 
+                alt="Kiwi" 
+            />
             <p>
                 Sed tincidunt iaculis felis quis dignissim. Mauris id cursus leo, in
                 luctus magna. Pellentesque habitant morbi tristique senectus et netus
@@ -62,7 +84,12 @@
         </article>
         <article>
             <h2>Grapes</h2>
-            <img src="images/grapes/grapes-1000.webp" alt="Grapes" />
+            <img 
+                srcset=""
+                sizes="" 
+                src="images/grapes/grapes-1000.webp" 
+                alt="Grapes" 
+            />
             <p>
                 Ut viverra non nibh vel porta. Nam justo tellus, gravida in nibh et,
                 pharetra fermentum neque. Nunc viverra porta aliquam. Nulla
