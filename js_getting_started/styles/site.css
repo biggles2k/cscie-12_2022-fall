@@ -1,0 +1,61 @@
+body {
+  --bkgd-color: rgb(249, 249, 249);
+  --text-color: rgb(30, 30, 30);
+  --anchor-color: rgb(0, 50, 255);
+}
+body.darkmode {
+  --text-color: rgb(249, 249, 249);
+  --bkgd-color: rgb(30, 30, 30);
+  --anchor-color: rgb(128, 159, 255);
+}
+body {
+  font-family: helvetica, sans-serif;
+  background-color: var(--bkgd-color);
+  color: var(--text-color);
+  margin: 1rem 2rem;
+}
+body.darkmode {
+  color: var(--text-color);
+  background-color: var(--bkgd-color);
+}
+.darkmode a:link,
+.darkmode a:visited,
+.darkmode a:hover,
+.darkmode a:active {
+  color: var(--anchor-color);
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: var(--anchor-color);
+}
+p {
+  line-height: 1.5;
+}
+
+.badge {
+  width: 150px;
+  float: right;
+  margin-left: 1rem;
+}
+section {
+  clear: both;
+  overflow: auto;
+  border: thin solid var(--text-color);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+section h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+main {
+  clear: both;
+}
+footer {
+  margin: 2rem 0;
+}
+#btn-mode {
+  float: right;
+}
